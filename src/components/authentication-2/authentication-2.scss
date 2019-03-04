@@ -1,0 +1,61 @@
+@import '../../styles/button/button.scss';
+
+.login-page{
+//  margin: auto;
+ width: 100%;
+display: flex;
+justify-content: center;
+ .login-wrapper{
+    margin: 50px;
+    height: 100%;
+    width: 60%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    display: flex;
+    justify-content: center;
+       .login-part-1{
+         border: 1px solid #ccc;
+         width: 50%;
+         background-image: url("../../assests/background-building.jpeg");
+       }
+       .login-part-2{
+          padding: 20px;
+         border: 1px solid #ccc;
+         width: 50%;
+         .login-field{
+            padding: 20px;
+            .input-group-text{
+               background-color: #bf4040;
+               border-color: #bf4040;
+               color: white;
+            }
+            input{
+             font-size: 12px;
+            }
+            .continue-btn {
+               background-color: #bf4040;
+               border-color: #bf4040;
+            }
+            .login-field-spacing{
+               margin-bottom: 16px;
+            }
+            .media-text{
+               font-size: 13px;
+               text-align: left;
+            }
+            .social-media-icon{
+               .fab{
+                  padding-right: 10px;
+               }
+               .google-background-clr{
+                  background-color: red;
+                  border-color: red;
+               }
+         }
+
+        
+         }
+   
+       }
+ }
+
+}

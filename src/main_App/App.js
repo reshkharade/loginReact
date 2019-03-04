@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import './App.scss';
-import Authentication from '../components/authentication/authentication'
+import Authentication2 from '../components/authentication-2/authentication-2'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Authentication/>
+      <Authentication2/>
       </div>
     );
   }
