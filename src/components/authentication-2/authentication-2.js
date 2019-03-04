@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react';
 import './authentication-2.scss';
+import logo from '../../assests/icon-zipgrid.png';
 
 
 class authentication_2 extends Component {
@@ -11,7 +12,9 @@ class authentication_2 extends Component {
             <div className="login-page">
                 <div className="login-wrapper">
                     <div className="login-part-1">
-                    <div className="logo"></div>
+                    </div>
+                    <div className="logo">
+                    <img src={logo} />
                     </div>
                     <div className="login-part-2">
                         <div className=" login-field-spacing sign-in-heading">Sign In</div>

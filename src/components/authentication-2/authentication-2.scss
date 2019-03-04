@@ -1,10 +1,11 @@
 @import '../../styles/button/button.scss';
 
 .login-page{
+   margin-top: 40px;
 //  margin: auto;
  width: 100%;
-display: flex;
-justify-content: center;
+ display: flex;
+ justify-content: center;
  .login-wrapper{
     margin: 50px;
     height: 100%;
@@ -13,10 +14,34 @@ justify-content: center;
     display: flex;
     justify-content: center;
        .login-part-1{
+         background-repeat: no-repeat;
+         background-size: 100% 100%;
          border: 1px solid #ccc;
          width: 50%;
          background-image: url("../../assests/background-building.jpeg");
+         filter: blur(1px);
+         -webkit-filter: blur(1px);
+       
        }
+       .logo{
+         img{
+            width: 200px;
+            background-color: rgb(0,0,0); /* Fallback color */
+            background-color: rgba(253, 253, 253, 0.4);
+            // background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+            color: white;
+            font-weight: bold;
+            border: 3px solid #f1f1f1;
+            position: absolute;
+            top: 35%;
+            left: 35%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+            width: 200px;
+            padding: 20px;
+            text-align: center;
+         }
+      }
        .login-part-2{
           padding: 20px;
          border: 1px solid #ccc;
@@ -58,4 +83,14 @@ justify-content: center;
        }
  }
 
+}
+
+
+@media screen and (max-width:400px){
+   .login-page{
+      display: block;
+   }
+   .login-wrapper{
+      display: block;
+   }
 }
