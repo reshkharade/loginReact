@@ -36,8 +36,8 @@ class authentication_2 extends Component {
                                 Login with other media
                             </div>
                             <div className="social-media-icon">
-                                <button type="button" className="login-field-spacing all-secondart-button  btn btn-primary"><i class="fab fa-facebook-f"></i>Facebbok</button>
-                                <button type="button" className="google-background-clr login-field-spacing all-secondart-button  btn btn-primary"><i class="fab fa-google-plus-g"></i>Google</button>
+                                <button type="button" className="login-field-spacing all-secondart-button  btn btn-primary"><i className="fab fa-facebook-f"></i>Facebbok</button>
+                                <button type="button" className="google-background-clr login-field-spacing all-secondart-button  btn btn-primary"><i className="fab fa-google-plus-g"></i>Google</button>
                             </div>
                         </div>
                     </div>
