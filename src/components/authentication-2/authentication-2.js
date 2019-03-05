@@ -14,7 +14,7 @@ class authentication_2 extends Component {
                     <div className="login-part-1">
                     </div>
                     <div className="logo">
-                    <img src={logo} />
+                        <img src={logo} />
                     </div>
                     <div className="login-part-2">
                         <div className=" login-field-spacing sign-in-heading">Sign In</div>
@@ -32,11 +32,12 @@ class authentication_2 extends Component {
                                 <input type="password" placeholder="Password" className="form-control" />
                             </div>
                             <button type="button" className="continue-btn login-field-spacing all-primary-button form-control btn btn-primary">Continue</button>
-                            <div className="login-field-spacing media-text">
-                                Login with other media
+                            <div className="login-or">
+                                <hr className="hr-or" />
+                                <span className="span-or">OR</span>
                             </div>
                             <div className="social-media-icon">
-                                <button type="button" className="login-field-spacing all-secondart-button  btn btn-primary"><i className="fab fa-facebook-f"></i>Facebbok</button>
+                                <button type="button" className="login-field-spacing all-secondart-button  btn btn-primary"><i className="fab fa-facebook-f"></i>Facebook</button>
                                 <button type="button" className="google-background-clr login-field-spacing all-secondart-button  btn btn-primary"><i className="fab fa-google-plus-g"></i>Google</button>
                             </div>
                         </div>

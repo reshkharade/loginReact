@@ -1,23 +1,33 @@
+// button variables:
 
-.all-primary-button{
-box-shadow: none !important;
-border-top-right-radius: 19px;
-border-bottom-right-radius: 19px;
-border-top-left-radius: 19px;
-border-bottom-left-radius: 19px;
-padding-left: 20px;
-padding-right: 20px;
-min-width: 100px;
+$all-border-radius:19px;
+$primary-btn-left-padding:20px;
+$primary-btn-right-padding:20px;
+$btn-min-width:100px;
+$btn-font-size:14px;
+
+
+
+.all-primary-button {
+  box-shadow: none !important;
+  border-top-right-radius: $all-border-radius;
+  border-bottom-right-radius: $all-border-radius;
+  border-top-left-radius: $all-border-radius;
+  border-bottom-left-radius: $all-border-radius;
+  padding-left: $primary-btn-left-padding;
+  padding-right: $primary-btn-right-padding;
+  min-width: $btn-min-width;
+  font-size:$btn-font-size;
 }
 
-.all-secondart-button{
-    box-shadow: none !important;
-    border-top-right-radius: 19px;
-    border-bottom-right-radius: 19px;
-    border-top-left-radius: 19px;
-    border-bottom-left-radius: 19px;
-    min-width: 100px;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 14px;
+.all-secondart-button {
+  box-shadow: none !important;
+  border-top-right-radius: $all-border-radius;
+  border-bottom-right-radius: $all-border-radius;
+  border-top-left-radius: $all-border-radius;
+  border-bottom-left-radius: $all-border-radius;
+  min-width: $btn-min-width;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: $btn-font-size;
 }
