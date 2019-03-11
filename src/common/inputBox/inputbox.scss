@@ -1,0 +1,17 @@
+@import '../../styles/variables/variables.scss';
+@import '../../styles/variables/colors.scss';
+
+.common-inputBox {
+  width: 300px;
+  input {
+    padding-top: 3px;
+    height: 28px;
+    padding-bottom: 3px;
+    font-size: $placeholder-font-size;
+    
+  }
+  .form-control:focus {
+    box-shadow: 0 0 0 0.15rem rgba(124, 140, 154, 0.25);
+    border-color:#ccc;
+  }
+}

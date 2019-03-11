@@ -7,7 +7,15 @@ import logo from '../../assests/icon-zipgrid.png';
 
 class authentication_2 extends Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+
+        }
+    }
+
     render() {
+
         return (
             <div className="login-page">
                 <div className="login-wrapper">
@@ -23,7 +31,7 @@ class authentication_2 extends Component {
                                 <div className="input-group-prepend">
                                     <span className="input-group-text" id="basic-addon1"><i className="fas fa-envelope"></i></span>
                                 </div>
-                                <input type="text" placeholder="Email" className="form-control" />
+                                <input type="email" placeholder="Email" className="form-control" />
                             </div>
                             <div className="input-group mb-3">
                                 <div className="input-group-prepend">

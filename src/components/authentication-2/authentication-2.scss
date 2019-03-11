@@ -49,8 +49,11 @@
     }
 
     .login-part-2 {
+      text-align: center;
       padding: 20px;
-      border: 1px solid $login-part-2-border;
+      border-top: 1px solid $login-part-2-border;
+      border-bottom: 1px solid $login-part-2-border;
+      border-right: 1px solid $login-part-2-border;
       width: 50%;
 
       .login-field {
@@ -158,28 +161,28 @@
   }
 }
 
-@media screen and (min-width:600px) and (max-width:800px){
-    .login-page{
-    .login-wrapper{
-        width:85%;
-        .logo {
-            img {
-              width: 165px;
-            }
-          }
+@media screen and (min-width: 600px) and (max-width: 800px) {
+  .login-page {
+    .login-wrapper {
+      width: 85%;
+      .logo {
+        img {
+          width: 165px;
+        }
+      }
     }
-}
+  }
 }
 
-@media screen and (min-width:800px) and (max-width:1000px){
-    .login-page{
-    .login-wrapper{
-        width:65%;
-        .logo {
-            img {
-              width: 180px;
-            }
-          }
+@media screen and (min-width: 800px) and (max-width: 1000px) {
+  .login-page {
+    .login-wrapper {
+      width: 65%;
+      .logo {
+        img {
+          width: 180px;
+        }
+      }
     }
-}
+  }
 }
