@@ -1,0 +1,16 @@
+@import "../../styles//variables/variables.scss";
+@import "../../styles/mixin/all_mixin.scss";
+@import "../../styles/variables/colors.scss";
+
+.common-date-selector {
+  width: 400px;
+  margin: 30px;
+  @include common-input-style;
+  @include common-formControl;
+
+  input {
+    background-image: url("../../assests/calender16px.png");
+    background-position: 175px 6px; /* Position the search icon */
+    background-repeat: no-repeat;
+  }
+}

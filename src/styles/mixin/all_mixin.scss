@@ -1,0 +1,18 @@
+@import "../../styles/variables/colors.scss";
+@import "../../styles/variables/variables.scss";
+
+@mixin common-input-style {
+  input {
+    padding-top: 3px;
+    height: $input-box-height;
+    padding-bottom: 3px;
+    font-size: $placeholder-font-size;
+  }
+}
+
+@mixin common-formControl {
+  .form-control:focus {
+    box-shadow: 0 0 0 0.15rem rgba(124, 140, 154, 0.25);
+    border-color: $input-box-color;
+  }
+}

@@ -1,0 +1,56 @@
+@import "../../styles/variables/colors.scss";
+@import "../../styles/variables/variables.scss";
+
+.common-search-box {
+  width: 400px;
+  margin: 30px;
+  .form-control:focus {
+    box-shadow: none;
+    //box-shadow: 0 0 0 0.15rem rgba(124, 140, 154, 0.25);
+    border-color: $input-box-color;
+  }
+
+  input {
+    padding-top: 3px;
+    width: 100%;
+    padding-left: 29px;
+    height: $input-box-height;
+    padding-bottom: 3px;
+    font-size: $placeholder-font-size;
+    border: 1px solid $input-box-color;
+    background-image: url("../../assests/search-icon.png"); /* Add a search icon to input */
+    background-position: 4px 4px; /* Position the search icon */
+    background-repeat: no-repeat;
+  }
+
+  .namelist {
+    list-style-type: none !important;
+    border-bottom: 1px solid $input-box-color;
+    border-left: 1px solid $input-box-color;
+    border-right: 1px solid $input-box-color;
+    height: $input-box-height;
+    font-size: $medium-text-size;
+    padding: 3px 6px;
+    background-color: white;
+  }
+
+  .react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  .react-autosuggest__suggestion {
+    cursor: pointer;
+  }
+
+  .react-autosuggest__suggestions-container {
+    // box-shadow: 0 0 0 0.15rem rgba(124, 140, 154, 0.25);
+  }
+  .react-autosuggest__suggestions-container--open {
+  }
+
+  .namelist:hover {
+    background-color: #f6f6f6;
+  }
+}
